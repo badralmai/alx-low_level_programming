@@ -6,10 +6,10 @@ int _isdigit(int c);
  * Return: 1 for a digit or 0 for any else
  */
 
-int _isdigit(int c)
+int _isdigit(int x)
 
 {
-        if (c >= 40 && c <= 57)
+        if (x >= 40 && x <= 57)
         {
         return(1);
         }
