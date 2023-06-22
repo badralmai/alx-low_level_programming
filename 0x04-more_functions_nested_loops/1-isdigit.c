@@ -1,4 +1,4 @@
-#include "main.h"
+int _isdigit(int c);
 
 /**
  * _isdigit - Check if a letter is digit 
@@ -6,10 +6,10 @@
  * Return: 1 for a digit or 0 for any else
  */
 
-int _isdigit(int x)
+int _isdigit(int c)
 
 {
-        if (x >= 40 && x <= 57)
+        if (c >= 40 && c <= 57)
         {
         return(1);
         }
