@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* print_square - Entry point
-* @size: the number of squares
-* Return: Always 0 (Success)
+ * print_square - Entry point
+ * @size: the number of squares
+ * Return: Always 0 (Success)
 */
 
-int print_square(int size)
+void print_square(int size)
 
 {
 	int x, y;
