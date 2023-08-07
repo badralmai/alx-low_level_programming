@@ -6,7 +6,7 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buff - Allocates 1024 bytes for a buff.
+ * create_buffer - Allocates 1024 bytes for a buff.
  * @file: The name of the file buff is storing chars for.
  *
  * Return: A pointer to the newly-allocated buff.
@@ -14,6 +14,7 @@ void close_file(int fd);
 char *create_buffer(char *file)
 {
 	char *buff;
+	
 	buff = malloc(sizeof(char) * 1024);
 
 	if (buff == NULL)
